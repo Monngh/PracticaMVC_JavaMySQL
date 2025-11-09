@@ -14,7 +14,7 @@ public class MDB {
         public MDB() {
            // conexion = new Conexion("com.mysql.jdbc.Driver", "administrador", "jdbc:mysql://localhost/bdcostos", "root");
 	                        //Conexion(String controlador, String contrasena, String URL, String usuario)
-        conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://127.0.0.1:3306/bddatos", "root","Gaelhm222");
+        conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://127.0.0.1:3306/bddatos", "root","");
         //public Conexion(String controlador, String contrasena, String URL, String usuario) {
 	//	conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://localhost:3306/bdcostos?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useTimezone=true&serverTimezone=GMT&useSSL=false", "root","administrador");
        // conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://mysql4.000webhost.com/id17628587_bddatos", "id17628587_maestra","Upp-2022*so@iT");
@@ -179,3 +179,4 @@ public class MDB {
 		return resultado;
 	}
 }
+
